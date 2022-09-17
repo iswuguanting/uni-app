@@ -1,0 +1,171 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	
+	    {
+            "path" : "pages/taBar/api/api",
+            "style" : {}
+        },
+        {
+            "path" : "pages/component/component",
+            "style" : {}
+        },
+			{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "应用开发"
+			}
+		}
+		
+		// 容器
+		
+        ,{
+            "path" : "pages/component/containers/view/view",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/component/containers/scroll-text/scroll-text",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/component/containers/swiper/swiper",
+            "style" : {}
+        }
+        
+		//基础内容
+		
+        ,{
+            "path" : "pages/component/BasicContent/progress/progress",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/component/BasicContent/rich-text/rich-text",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/component/BasicContent/text/text",
+            "style" : {}
+        }
+		//表单组件
+		
+        ,{
+            "path" : "pages/component/FormComponent/buttom/buttom",
+            "style" : {}
+        },
+		{
+		    "path" : "pages/component/FormComponent/radio/radio",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/component/FormComponent/checkbox/checkbox",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/component/FormComponent/input/input",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/component/FormComponent/picker/picker",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/component/FormComponent/slider/slider",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/component/FormComponent/switch/switch",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/component/FormComponent/textarea/textarea",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/component/FormComponent/form/form",
+		    "style" : {}
+		}
+		//导航
+        ,{
+            "path" : "pages/component/navigation/navigator/navigator",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+			"path":"pages/component/navigation/newpage/newpage",
+			"style" :
+			{
+			    "navigationBarTitleText": "",
+			    "enablePullDownRefresh": false
+			}
+		},
+		// 图片和视频
+		{
+		    "path" : "pages/component/MediaComponent/image/image",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/component/MediaComponent/video/video",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/component/MediaComponent/audio/audio",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+       //地图
+        ,{
+            "path" : "pages/component/Map/map/map",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "应用开发",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	//导航栏
+	"tabBar":{
+		"backgroundColor":"aqua",//背景色
+		"color":"blueviolet",//前景色
+		"list":[
+			{
+				"text":"组件",
+				"pagePath":"pages/component/component",
+				"iconPath":"static/容器服务.png",//点击前的效果
+				"selectedIconPath":"static/容器服务.png"//点击后的效果
+				
+			},
+			{
+				"text":"API",
+				"pagePath":"pages/taBar/api/api",
+				"iconPath":"static/API服务.png",
+				"selectedIconPath":"static/API服务.png"
+			},
+			{
+				"text":"主页",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/logo.png",
+				"selectedIconPath":"static/logo.png"
+			}
+		]
+	}
+	
+}

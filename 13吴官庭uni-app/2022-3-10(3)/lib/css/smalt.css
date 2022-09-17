@@ -1,0 +1,352 @@
+.smalt{
+	padding: 30rpx;
+	text-align: center;
+	background-color: skyblue;
+	border: 2px solid white;
+	font-size: 60rpx;
+}
+
+.smalt_first{
+	padding: 15rpx;
+	background-color: #F8F8d8;
+	border: 2px solid white;
+}
+.smalt_twore{
+	background-color: #F1F1F1;
+	font-size: 14px;
+	font-weight: normal ;
+	padding: 12px;
+	flex-direction: row;
+	border: 2px solid white;
+}
+.smalt_twore_onlione{
+	background-color: #F1F1F1;
+	font-size: 14px;
+	font-weight: normal ;
+	padding: 12px;
+	flex-direction: row;
+	border: 2px solid white;
+}
+.smalt_twore_onlitwo{
+	background-color: #F1F1F1;
+	font-size: 14px;
+	font-weight: normal ;
+	padding: 12px;
+	flex-direction: row;
+	border: 2px solid white;
+}
+.smalt_page_head{
+	padding: 35rpx;
+	text-align: center;
+}
+.smalt_page_head_title{
+	font-size: 30rpx;
+	height: 88rpx;
+	line-height: 88rpx;
+	color: #8F8F94;
+	border-bottom: 2rpx solid #8F8F94;
+	padding: 0 40rpx;
+	box-sizing: border-box;
+	display: inline-block;
+}
+.smalt_padding_wrap{
+	padding: 0 30rpx;
+}
+
+
+.smalt_flex{
+	display: flex;
+}
+.smalt_row{
+	flex-direction: row;
+}
+
+
+
+
+.smalt_item{
+	width: 33.3%;
+	height: 200rpx;
+	line-height: 200rpx;
+	text-align: center;
+}
+/* 背景色 */
+.smalt_bg_blue{
+	background: blue;
+	color: #FFFFFF;
+}
+.smalt_bg_watherblack{
+	background: whitesmoke;
+	color: #FFFFFF;
+}
+.smalt_bg_green{
+	background: green;
+	color: #FFFFFF;
+}
+.smalt_bg_red{
+	background: red;
+	color: #FFFFFF;
+}
+.smalt_column{
+	flex-direction: column;
+}
+.flex_item_100{
+	width: 100%;
+	height: 200rpx;
+	line-height: 200rpx;
+	text-align: center;
+}
+
+/* 其他布局 */
+.text{
+	margin: 15rpx 10rpx;
+	padding: 0 20rpx;
+	background-color: #ebebeb;
+	height: 70rpx;
+	line-height: 70rpx;
+	color: #777;
+	font-size: 16rpx;
+}
+.text_first_one{
+	width: 300rpx;
+}
+.text_first_two{
+	justify-content: center;
+	--webkit-justify-content:center ;
+}
+.text_first_three{
+	justify-content: flex-end;
+	--webkit-justify-content:flex-end ;
+}
+.text_secound_one{
+	--webkit-flex:1 ;
+	flex: 1;
+}
+.text_secound_two{
+	--webkit-flex:1 ;
+	flex: 1;
+}
+.text_first_four{
+	justify-content: space-between;
+	--webkit-justify-content:space-between ;
+}
+.text_secound_three{
+	width: 150rpx;
+}
+.text_secound_four{
+	--webkit-flex: 1;
+	flex: 1;
+}
+.text_first_five{
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+.text_three_one{
+	width: 280rpx;
+}
+.text_three_two{
+	width: 280rpx;
+}
+.text_three_three{
+	width: 280rpx;
+}
+
+
+
+/* 横向滚动和纵向滚动 */
+.srcoll_view_item{
+	width: 100%;
+	height: 300rpx;
+	line-height: 300rpx;
+}
+.scroll_x{
+	white-space: nowrap;
+	width: 100%;
+}
+.scroll_y{
+	height: 300rpx;
+}
+.srcoll_view_item_h{
+	display: inline-block;
+	height: 300rpx;
+	width: 100%;
+	line-height: 300rpx;
+	text-align: center;
+}
+
+/* swiper 滑块视图 */
+.swiper_item{
+	display: block;
+	height: 300rpx;
+	line-height: 300rpx;
+	text-align: center;
+}
+
+
+/* text 文本组件 */
+.text_box{
+	overflow: scroll;
+	margin-bottom: 40rpx;
+	padding: 40rpx 0;
+	display: flex;
+	min-height: 300rpx;
+	max-height: 300rpx;
+	background-color: #EBEBEB;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 30rpx;
+	color: black;
+	line-height: 1.8;
+}
+/* 进度条 */
+.progress_box{
+	height: 50rpx;
+	margin-bottom: 0rpx;
+}
+.progress_control button{
+	margin-top: 20rpx;
+	margin-bottom: 20rpx;
+}
+.progress_box_schoe{
+	height: 300rpx;
+	
+	magin-top: 3000rpx;
+}
+
+/* 按钮 */
+.mini_btn{
+	margin-right: 30rpx ;
+}
+	
+/* 多选框 */
+.item{
+	margin-bottom: 30rpx;
+}
+.list{
+	justify-content: flex-start;
+	padding: 22rpx 30rpx;
+}
+.list view{
+	padding-bottom: 20rpx;
+	border-bottom: 1px solid #d8d8d8;
+}
+.item_today{
+	padding-bottom: 20rpx;
+	
+}
+
+/* input输入框 */
+.uni_icon{
+	font-family: uniicons;
+	font-size: 24rpx;
+	font-weight: normal;
+	font-style: normal;
+	width: 24rpx;
+	height: 24rpx;
+	line-height: 24rpx;
+	color: #999999;
+	margin-top: 5rpx;
+}
+.wrapper{
+	/* #ifdef */
+	display: flex;
+	/* #endif */
+	flex-direction: row;
+	flex-wrap: nowrap;
+	background-color: #d8d8d8;
+}
+.eye_active{
+	color: #007aff;
+}
+.smalt_input{
+	height: 28rpx;
+	line-height: 28rpx;
+	font-size: 15rpx;
+	flex: 1;
+	background-color: #D8D8D8;
+	padding: 3rpx;
+}
+
+
+
+/* picker,选择列表 */
+.uni_title{
+ font-size: 30rpx;
+ font-weight: 500;
+ padding: 20rpx 0;
+ line-height: 1.5 ;
+}
+.uni_list{
+ background-color: #ffffff;
+ position: relative;
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+}
+.uni_lis_cell{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: ;
+  align-items: center;
+  border-top: 1rpx solid #bebebe;
+  border-bottom: 1rpx solid #bebebe;
+}
+.uni_lis_cell_db
+.uni_lis_cell_right{
+ flex: 1;
+}
+.uni_lis_cell_left{
+ white-space: nowrap;
+ font-size: 28rpx;
+ padding: 0 30rpx;
+}
+.uni_input{
+	height: 50rpx;
+	padding: 15rpx 25rpx;
+	line-height: 50rpx;
+	font-size: 28rpx;
+	background: #fff;
+	flex: 1;
+}
+
+/* checkbox多选框 */
+.item{
+	margin: 30rpx;
+}
+.list{
+	justify-content: flex-start;
+	padding: 22rpx 30rpx;
+}
+.list view{
+	padding-bottom: 20rpx;
+	border-bottom: 1px solid #D8D8D8;
+}
+.item_first{
+	transform: scale(0.7);
+}
+
+/* textarea 多行文本 */
+.text_area{
+	border: 1rpx solid #D8D8D8;
+	width: 100%;
+	line-height: 60rpx;
+}
+
+/* form 表单 */
+switch{
+	transform: scale(0.7);
+}
+radio{
+	transform: scale(0.7);
+}
+checkbox{
+	transform: scale(0.7);
+}
+.container{
+	padding: 40rpx;
+}
+.formitem .formtitle{
+	padding: 20rpx 0;
+}

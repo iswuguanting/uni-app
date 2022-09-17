@@ -1,0 +1,81 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/tabBar/news/news",
+		    "style" : {}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	    
+        ,{
+            "path" : "pages/newsinfo/newsinfo",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/tabBar/video/video",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/tabBar/topic/topic",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/tabBar/pursue/pursue",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/tabBar/topic1/topic1",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/tabBar/oppinions/oppinions",
+            "style" : {}
+        },
+		{
+		    "path" : "pages/tabBar/videocontent/videocontent",
+		    "style" : {}
+		}
+        ,{
+            "path" : "pages/tabBar/my/my",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		// "navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"navigationBarBackgroundColor":"red",
+		"selectedColor":"#d81e06",
+		"list":[
+			{"text":"新闻",
+			"pagePath":"pages/tabBar/news/news",
+			"iconPath":"static/shouye.png",
+			"selectedIconPath":"static/hxw.png"},
+			{
+				"text":"视频",
+				"pagePath":"pages/tabBar/video/video",
+				"iconPath":"static/spy.png",
+				"selectedIconPath":"static/spc.png"
+			},
+			{
+				"text":"话题",
+				"pagePath":"pages/tabBar/topic/topic",
+				"iconPath":"static/hty.png",
+				"selectedIconPath":"static/htc.png"
+			},
+			{
+				"text":"未登录",
+				"pagePath":"pages/tabBar/my/my",
+				"iconPath":"static/wdly.png",
+				"selectedIconPath":"static/wdlc.png"
+			}
+		]
+	}
+}
